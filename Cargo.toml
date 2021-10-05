@@ -1,12 +1,12 @@
 [package]
-name = "vectors"
+name = "melius-vectors"
 version = "0.1.0"
 edition = "2018"
 license = "Apache-2.0"
 description = "Simple 2-4 dimensional vectors that can be easily created and manipulated."
-homepage = "https://github.com/PutterBeanut/vectors"
-documentation = "https://github.com/PutterBeanut/vectors"
-repository = "https://github.com/PutterBeanut/vectors"
+homepage = "https://github.com/PutterBeanut/melius-vectors"
+documentation = "https://github.com/PutterBeanut/melius-vectors"
+repository = "https://github.com/PutterBeanut/melius-vectors"
 readme = "README.md"
 keywords = ["math", "vector", "graph"]
 categories = ["mathematics"]
