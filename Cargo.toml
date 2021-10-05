@@ -7,5 +7,8 @@ description = "Simple 2-4 dimensional vectors that can be easily created and man
 homepage = "https://github.com/PutterBeanut/vectors"
 documentation = "https://github.com/PutterBeanut/vectors"
 repository = "https://github.com/PutterBeanut/vectors"
+readme = "README.md"
+keywords = ["math", "vector", "graph"]
+categories = ["mathematics"]
 
 [dependencies]
