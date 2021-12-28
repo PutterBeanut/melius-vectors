@@ -3,6 +3,7 @@
 
 # Installation
 Under your Cargo.toml's `[Dependencies]`, add the following dependency:
+
 `melius-vectors = { git = "https://github.com/PutterBeanut/melius-vectors/" }`
 
 # Usage
