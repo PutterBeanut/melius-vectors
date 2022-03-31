@@ -1,4 +1,6 @@
 use std::{fmt::Display, ops::{Add, AddAssign, Sub, SubAssign, Mul, MulAssign, Div, DivAssign}};
+use crate::vector2::Vector2;
+use crate::vector4::Vector4;
 
 #[derive(Copy, Clone, Debug)]
 pub struct Vector3<T: Default + Display + Add<Output = T> + AddAssign + Sub<Output = T> + SubAssign + Mul<Output = T> + MulAssign + Div<Output = T> + DivAssign> {
@@ -22,6 +24,14 @@ impl<T: Default + Display + Add<Output = T> + AddAssign + Sub<Output = T> + SubA
             y: Default::default(),
             z: Default::default(),
         }
+    }
+
+    pub fn from_vector2(vec2: Vector2<T>) -> Vector3<T> {
+        Vector3::new(vec2.x, vec2.y, Default::default())
+    }
+
+    pub fn from_vector4(vec4: Vector4<T>) -> Vector3<T> {
+        Vector3::new(vec4.x, vec4.y, vec4.z)
     }
 }
 

@@ -3,6 +3,8 @@ pub mod vector3;
 pub mod vector4;
 
 mod test {
+    use crate::vector2::Vector2;
+
     #[test]
     fn test_fn() {
         use crate::vector2::Vector2;
