@@ -1,5 +1,6 @@
 use std::{fmt::Display, ops::{Add, AddAssign, Sub, SubAssign, Mul, MulAssign, Div, DivAssign}};
 
+#[derive(Copy, Clone, Debug)]
 pub struct Vector3<T: Default + Display + Add<Output = T> + AddAssign + Sub<Output = T> + SubAssign + Mul<Output = T> + MulAssign + Div<Output = T> + DivAssign> {
     pub x: T,
     pub y: T,
